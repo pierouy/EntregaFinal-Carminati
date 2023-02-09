@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+$color-base: white;
+$color-principal: #abc28f;
+$color-hover: #97958e;
+$fuente: 'Raleway', sans-serif;
+
+.navbar{
+    background-color: $color-principal;
+    font-family: $fuente;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 150px;
+}
+
+.nav-link{
+    color: black !important;
+    font-weight: bold;
+    margin-inline: 0.5rem;
+}
+
+.nav-link:hover{
+    color: white !important;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 651px;
+    object-fit: cover;
+}
+
+.carousel-indicators{
+    color: black !important;
+}
+
+.sec{
+    margin: 50px;
+    border: 3px solid $color-principal;
+    width: calc(100% - 100px);
+    ul{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: 2px solid $color-principal;
+    }
+    a:hover{
+        transform: scale(2);
+        transition: all 0.5s; 
+    }
+}
+
+.principal{
+    h1{
+        margin: 50px;
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    p{
+        margin: 50px;
+        padding: 20px;
+        border: 2px solid $color-principal;
+    }
+}
+
+footer{
+    background-color: $color-principal;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    height: 100px;
+    p{
+        margin-bottom: 10px;
+    }
+    i{
+        padding-top: 10px;
+        font-size: 20px;
+        letter-spacing: 20px;
+        color: $color-base;
+    }
+    i:hover{
+        color: $color-hover;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.size{
+    align-items: center;
+}
+
+.producto{
+    border: 2px solid $color-principal;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    position: center;
+    align-items: center;
+}
+
+.formulario{
+    p{
+        margin: 50px;
+        padding: 20px;
+        border: 2px solid $color-principal;
+    }
+    
+    form{
+        margin: 50px;
+        padding: 20px;
+        border: 2px solid $color-principal;
+    }
+    
+    button{
+        background-color: $color-principal;
+        border: none;
+    }
+    button:hover{
+        background-color: $color-hover;
+    }
+}
+
+.mapa{
+    text-align: center; 
+}
+
+.nosotros{
+    img{
+        margin-inline: 5px;
+        margin-block: 25px;
+        padding: 20px;
+        object-fit: cover;
+        align-items: center;
+        border: 2px solid $color-principal;
+    }
+    p{
+        margin-inline: 5px;
+        margin-block: 25px;
+        padding: 20px;
+        object-fit: cover;
+        align-items: center;
+        border: 2px solid $color-principal;
+    }
+}
+
+.vid{
+    padding: 10px;
+    margin: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

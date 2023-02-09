@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+.navbar {
+  background-color: #abc28f;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 150px;
+}
+
+.nav-link {
+  color: black !important;
+  font-weight: bold;
+  margin-inline: 0.5rem;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 651px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-indicators {
+  color: black !important;
+}
+
+.sec {
+  margin: 50px;
+  border: 3px solid #abc28f;
+  width: calc(100% - 100px);
+}
+.sec ul {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #abc28f;
+}
+.sec a:hover {
+  transform: scale(2);
+  transition: all 0.5s;
+}
+
+.principal h1 {
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.principal p {
+  margin: 50px;
+  padding: 20px;
+  border: 2px solid #abc28f;
+}
+
+footer {
+  background-color: #abc28f;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  height: 100px;
+}
+footer p {
+  margin-bottom: 10px;
+}
+footer i {
+  padding-top: 10px;
+  font-size: 20px;
+  letter-spacing: 20px;
+  color: white;
+}
+footer i:hover {
+  color: #97958e;
+}
+footer a {
+  text-decoration: none;
+}
+
+.size {
+  align-items: center;
+}
+
+.producto {
+  border: 2px solid #abc28f;
+  padding: 10px;
+  margin: 10px;
+  height: 300px;
+  position: center;
+  align-items: center;
+}
+
+.formulario p {
+  margin: 50px;
+  padding: 20px;
+  border: 2px solid #abc28f;
+}
+.formulario form {
+  margin: 50px;
+  padding: 20px;
+  border: 2px solid #abc28f;
+}
+.formulario button {
+  background-color: #abc28f;
+  border: none;
+}
+.formulario button:hover {
+  background-color: #97958e;
+}
+
+.mapa {
+  text-align: center;
+}
+
+.nosotros img {
+  margin-inline: 5px;
+  margin-block: 25px;
+  padding: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-items: center;
+  border: 2px solid #abc28f;
+}
+.nosotros p {
+  margin-inline: 5px;
+  margin-block: 25px;
+  padding: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-items: center;
+  border: 2px solid #abc28f;
+}
+
+.vid {
+  padding: 10px;
+  margin: 25px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=estilos.css.map */
